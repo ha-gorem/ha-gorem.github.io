@@ -1,0 +1,408 @@
+html{
+   font-family: Open Sans Hebrew, sans-serif;
+   direction: rtl;
+}
+
+#wrapper{
+    margin: 0 auto;
+	padding: 0;
+    max-width: 960px;
+    width: 96%;             
+}
+
+body{
+	margin: 0px auto;
+	padding: 0;
+    background: #ebebeb;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #00628B;
+    text-align: center;
+    font-weight: 100;
+	margin-bottom: 0px;
+}
+
+p{
+    margin: 2% 3.5%;
+}
+
+#social a, nav ul li a{
+    text-decoration: none;
+}
+
+.main-haeder {
+	width: 100%;
+	height:162px;
+    padding: 0px;
+	margin: 0px auto;
+	background: #484646;
+}
+
+.main-haeder h1{
+	display: inline-block;
+	font-size: 3rem;
+	text-align: center;
+	margin:30px 0px;
+	color: #fff;
+	width: 100%;	
+}
+
+.logo{
+	position: absolute;
+	margin: 11px 5px;
+	height: 50px;
+	width: auto;
+	background:#8f8f8f;
+}
+
+#banner-fade,
+#banner-slide{
+	margin: 8% auto;
+	border: 0px solid #F47C3C;
+	position: relative;
+	
+
+}
+
+ul.bjqs-controls.v-centered li a{
+	display:block;
+	padding:10px;
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+
+ul.bjqs-controls.v-centered li a:hover{
+	background:#000;
+	color:#fff;
+}
+
+ol.bjqs-markers li a{
+	padding:5px 10px;
+	background:#000;
+	color:#fff;
+	margin:5px;
+	text-decoration: none;
+}
+
+ol.bjqs-markers li.active-marker a,
+ol.bjqs-markers li a:hover{
+	background: #999;
+}
+
+p.bjqs-caption{
+	background: rgba(255,255,255,0.5);
+	color: #000;
+	
+}
+
+div .nav-menu{
+	background:#484646;
+	position: relative;
+	}
+
+div.nav-menu ul{
+	margin: 0px auto;
+	padding: 0px 0px;
+}
+
+div .nav-menu ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+div .nav-menu li a{
+	display: block;
+	padding:8px 12px;
+	margin: 0;
+	text-decoration: none;	
+	text-align: center;
+    color:#ababab;		
+}
+
+.nav-menu li.selected a{
+	background:#19c589;
+	color: #000;
+}
+
+ .nav-menu li:hover a{
+    background:#19c589;
+    color: #2f3036;
+}
+
+    .clearfix:before,  
+    .clearfix:after {  
+        content: " ";  
+        display: table;  
+    }  
+    .clearfix:after {  
+        clear: both;  
+    }  
+    .clearfix {  
+        *zoom: 1;  
+    }  
+
+p{
+	line-height: 1.5em;
+	font-size: 1em;
+}
+
+section.left-col {
+    float: left;
+    width: 72%;
+    background:#fcfcfc;
+    box-shadow: 1px 1px 2px #8F8F8F;
+	border-right: 1px dotted #8F8F8F;
+    padding-bottom: 7%;
+    margin-top: 2%;	
+}
+
+section p{
+	text-align: justify;   
+	color: #5c5c5c;
+}
+
+section a{
+	color: #00628B;
+ 	margin: 2% 3.5%;
+	float: left;
+}
+
+
+
+figure{
+	text-align: center;
+	display: inline-block;
+	margin: 15px;
+	float: left;
+	max-width: 60%;
+    height: auto;
+    width: auto;	
+}
+
+figcaption{
+	display: inline-block;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.left-col img{
+    max-width: 88%;
+    height: auto;
+    width: auto;
+    box-shadow: 1px 1px 2px #8F8F8F;
+	margin: 1%;
+	padding: 2%;
+}
+/************סןף טור שמאלי*************/
+
+
+/**************עסק************/
+.main-title{
+	margin:0px 0;
+	padding: 20px 10px;
+	border-right: 2px solid #19c589;
+	background: #e0e0e0;
+	height: auto;
+	box-sizing: border-box;
+}
+
+.main-title p{
+	position: relative;
+	display: inline-block;
+	bottom: 10px;
+	right: 0px;	
+}
+
+.main-title h1{
+	position: relative;
+	float: right;
+	margin: 0px 0px;
+	padding-right: 6px;
+	background:;
+	color: #19c589;	
+}
+
+section.main{
+	margin: 60px auto;
+	background: #fff;
+	border: 1px solid #c1c1c1;
+	width: 100%;
+	height: 460px;
+}
+
+.main p{
+	height: auto;
+	width: auto;
+	text-align: right;
+}
+
+ section.main img{
+	max-width: 100%;
+    height: auto;
+    width: auto;
+    box-shadow: 1px 1px 2px #8F8F8F;
+	margin: 1%;
+	padding: 2%;
+ }
+/**************עסק סוף ************/
+
+
+/************טור ימני*************/
+.right-col{
+    float: right;
+    width: 24%;
+	margin-top: 2%;
+}
+
+.sidebar{ 
+    margin-bottom: 44%;
+    background: #19c589;
+    padding: 5%;
+    color: white;
+}
+
+.sidebar h3{
+    color: #000;
+ }
+
+.sidebar p{
+		text-align: right;
+}
+
+#member{
+    text-align: center;
+}
+
+#member img{
+    margin: 4.5%;
+    border: 0px solid #fff;
+    box-shadow: 2px 2px 0px #149866;
+}
+/************סןף טור ימני*************/
+
+
+.vid{
+    position: relative;
+    padding-bottom : 56.25%;
+	padding-top : 30px;
+	height: 0;
+	overflow: hidden;
+} 
+
+.vid iframe {
+  	border: 1px solid 989598;
+}
+
+#footer{
+	text-align: center;
+    background: #989598;
+    height: 80px;
+}
+
+#footer h6{
+    padding: 1%; 
+    color: #fff;
+    margin: 0 auto;	
+}
+
+#social{
+	position: relative;
+	margin;0;
+	bottom: 0px;
+}
+
+#social img{
+    height: 30px;
+	margin: 4px;
+}
+
+@media screen and (max-width: 760px){	
+	
+section.left-col{
+	width: 100%;
+	margin: 16% auto;
+}
+	
+.right-col{
+	width: 100%;
+	margin: 16% auto;
+}			
+}
+
+.menu-trigger{
+	display: none;
+}
+
+@media screen and (max-width: 540px){
+	
+	.main-haeder{
+		height:auto;		
+	}			
+	
+	.menu-trigger{
+	display: block;
+	background-color: #19c589;
+	padding: 10px;
+	text-align: right;
+	cursor: pointer;
+}
+	
+	div .nav-expanded{
+	display: block;
+	}
+	
+	.nav-menu{
+		display: none;
+		background: #ebebeb;
+	}
+	
+	div .nav-menu ul li{
+		border-bottom: 2px solid #d5dce4;
+		background-color: #ebebeb;
+		display:block;
+		padding: 0px;
+	}
+	
+	div .nav-menu ul li a{
+		text-align: right;
+	}
+	
+	div .nav-menu ul :last-child{
+		border-bottom: none;
+	}
+	
+	p{
+		
+	}
+	
+	.vid iframe {
+  	
+}
+
+}
+	
+	
+	/*nav li {
+		display: inline-block;
+		float: none;
+		width: 50%;
+		margin: 2px;
+		padding: 0px;
+		background: ;
+		border: 1px solid #8f8f8f;
+	}*/
+
+
+/****p{
+     -webkit-columns: 2 200px;
+        -moz-columns: 2 200px;
+             columns: 2 200px;
+  -webkit-column-gap: 2em;
+     -moz-column-gap: 2em;
+          column-gap: 2em;
+ -webkit-column-rule: 1px dotted #ddd;
+    -moz-column-rule: 1px dotted #ddd;
+         column-rule: 1px dotted #ddd;
+}***/
