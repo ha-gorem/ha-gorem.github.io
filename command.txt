@@ -11,3 +11,7 @@ git push
 
 git pull
 
+
+==== to remove 
+git rm (file_name)
+
