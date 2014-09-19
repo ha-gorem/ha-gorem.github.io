@@ -1,3 +1,13 @@
+===== to push my changes to the server ======
+
 git add .
 git commit -m "your comment"
 git push
+
+
+
+===== to pull when the version on server is more advanced than my version =======
+
+
+git pull
+
