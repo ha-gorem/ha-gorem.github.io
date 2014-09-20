@@ -49,8 +49,9 @@ p{
 }
 
 .logo{
-	position: absolute;
-	margin: 11px 5px;
+	position: relative;
+	top: 10px;
+	margin: 0px 6px;
 	height: 50px;
 	width: auto;
 	background:#8f8f8f;
@@ -58,15 +59,13 @@ p{
 
 #banner-fade,
 #banner-slide{
-	margin: 8% auto;
+	margin: 5% auto 7%;
 	border: 0px solid #F47C3C;
 	position: relative;
-	
-
 }
 
 ul.bjqs-controls.v-centered li a{
-	display:block;
+	display:none;
 	padding:10px;
 	background:#fff;
 	color:#000;
@@ -144,22 +143,22 @@ div .nav-menu li a{
     }  
 
 p{
-	line-height: 1.5em;
+	line-height: 1.6em;
 	font-size: 1em;
+	text-align: justify;
 }
 
 section.left-col {
     float: left;
     width: 72%;
-    background:#fcfcfc;
+    background:#f5f5f5;
     box-shadow: 1px 1px 2px #8F8F8F;
-	border-right: 1px dotted #8F8F8F;
-    padding-bottom: 7%;
-    margin-top: 2%;	
+	border-right: 0px dotted #8F8F8F;
+    padding-bottom: 5%;
+    margin-top: 2%;
 }
 
 section p{
-	text-align: justify;   
 	color: #5c5c5c;
 }
 
@@ -185,14 +184,14 @@ figcaption{
 	display: inline-block;
 	font-style: italic;
 	font-size: 13px;
+	color: #5c5c5c;
 }
 
 .left-col img{
-    max-width: 88%;
+	max-width: 100%;
     height: auto;
     width: auto;
     box-shadow: 1px 1px 2px #8F8F8F;
-	margin: 1%;
 	padding: 2%;
 }
 /************סןף טור שמאלי*************/
@@ -257,18 +256,19 @@ section.main{
 }
 
 .sidebar{ 
-    margin-bottom: 44%;
+    margin-bottom: 12%;
     background: #19c589;
-    padding: 5%;
+    padding: 4%;
     color: white;
 }
 
 .sidebar h3{
-    color: #000;
+    color: #fff;
+	margin-bottom: 2%;
  }
 
 .sidebar p{
-		text-align: right;
+	text-align: right;
 }
 
 #member{
@@ -276,8 +276,8 @@ section.main{
 }
 
 #member img{
-    margin: 4.5%;
-    border: 0px solid #fff;
+    margin: 2.4%;
+    border: 1px solid #fff;
     box-shadow: 2px 2px 0px #149866;
 }
 /************סןף טור ימני*************/
@@ -322,12 +322,16 @@ section.main{
 	
 section.left-col{
 	width: 100%;
-	margin: 16% auto;
+	margin: 1% auto;
+}
+
+p{
+	text-align: right;
 }
 	
 .right-col{
 	width: 100%;
-	margin: 16% auto;
+	margin: 12% auto 0%;
 }			
 }
 
@@ -335,7 +339,7 @@ section.left-col{
 	display: none;
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 706px){
 	
 	.main-haeder{
 		height:auto;		
@@ -372,15 +376,10 @@ section.left-col{
 	div .nav-menu ul :last-child{
 		border-bottom: none;
 	}
-	
-	p{
-		
-	}
-	
+
 	.vid iframe {
   	
 }
-
 }
 	
 	
