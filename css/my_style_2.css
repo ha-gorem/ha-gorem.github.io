@@ -63,6 +63,7 @@ p{
 	position: relative;
 	float: left;
 	width: 100%;
+	height: auto;
 }
 
 ul.bjqs-controls.v-centered li a{
@@ -113,10 +114,10 @@ div .nav-menu ul li{
 
 div .nav-menu li a{
 	display: block;
-	padding:8px 12px;
 	text-decoration: none;	
 	text-align: center;
     color:#ababab;
+	padding:8px 12px;
 }
 
 .nav-menu li.selected a{
@@ -166,8 +167,6 @@ section p{
 	color: #5c5c5c;
 }
 
-
-
 figure{
 	text-align: center;
 	display: inline-block;
@@ -204,32 +203,46 @@ figcaption{
 	height: auto;
 	margin-top: 2%;
 	margin-bottom: 7%;
+	background: #19c589;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.right-col-1{
+	float: right;
+    width: 25%;
+	height: 479px;
+	margin-top: 2%;
+	margin-bottom: 7%;
 	background: #484646;
 	color: #fff;
+	box-sizing: border-box;
 }
 
 .sidebar{
-    margin-bottom: 9%;
-    padding: 4%;
+    margin-bottom: 3%;
+    padding: 6.2%;
 }
 
 .sidebar h3{
     color: #fff;
-	margin: 2%;
+	margin: 0 auto;
  }
 
 .sidebar p{
 	text-align: right;
-	padding: 0%;
+	padding: 1.5%;
+	margin: 0 auto;
 }
 
 
 #member{
     text-align: center;
+	padding:0%;
 }
 
 #member img{
-    margin: 2.4%;
+    margin: 2.5%;
     border: 1px solid #fff;
     box-shadow: 2px 2px 3px #000;
 }
@@ -239,6 +252,7 @@ figcaption{
 /**************עסק************/
 .main-title{
 	padding: 20px 10px;
+	margin-top: 1%;
 	border-right: 2px solid #19c589;
 	background: #e0e0e0;
 	height: auto;
@@ -310,6 +324,65 @@ h1{
 /**************עסק סוף ************/
 
 
+/*******קשר********/
+
+.main-title-kesher h1{
+	width: 85%;
+	padding: 1% 0%;
+	margin: 6% auto 0%;
+	text-align: center;
+	color: #fff;
+	background: #80aaff;
+	border-right: 1px solid #80aaff;
+}
+
+.kesher{
+	position: relative;
+	top: -16px;
+	background: #fff;
+	margin: 0% auto 6%;
+	height: 280px;
+	width: 85%;
+	color: #80aaff;
+	border-right: 1px solid #80aaff;
+	}
+
+.kesher p{
+	position: relative;
+	float: right;
+	top: 13px;
+	width: 40%;
+	right: 12px;
+}
+
+.kesher ul h2{
+	text-align: right;
+	display: inline-block;
+	color: #80a8ff;
+	font-size: 1.2rem;
+	}
+
+.kesher ul li{
+	position: relative;
+	top: 13px;
+	left: 12px;
+	width: 44%;
+	line-height: 1.5px;
+	background: #e0e0e0;
+	height: 55px;
+	float: left;
+	margin: 15px 35px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.kesher img{
+	padding:  1%;
+	position: relative;
+	top: 12px;
+	margin: 0 16px;
+	}
+
 .vid{
     position: relative;
     padding-bottom : 56.25%;
@@ -345,6 +418,35 @@ h1{
 	margin: 4px;
 }
 
+@media screen and (max-width: 1014px){
+
+.right-col-1{
+	width: 100%;
+	height: auto;
+	margin: 0% auto;
+}
+
+.sidebar{
+    margin-bottom: 0%;
+    padding: 2.5%;
+}
+
+.right-col-1 p, h3{
+		padding: 0%;
+		margin: 0 auto;
+	}
+
+	#banner-fade,
+#banner-slide{
+	margin: 3% auto 7%;
+	position: relative;
+	float: none;
+	width: 100%;
+}
+}
+
+
+
 @media screen and (max-width: 760px){	
 	
 section.left-col{
@@ -358,15 +460,31 @@ p{
 	
 .right-col{
 	width: 100%;
-	margin: 12% auto 0%;
-}			
+	margin: 2% auto 2%;
+	background: #19c589;
 }
+.right-col-1{
+	width: 100%;
+	margin: 7% auto 4% ;
+}
+
+.kesher ul li, .kesher p{
+	width: 90%;
+	margin: 10px ;
+	padding: 0px;
+}
+
+.kesher{
+	height: 410px;
+}
+}
+
 
 .menu-trigger{
 	display: none;
 }
 
-@media screen and (max-width: 560px){
+@media screen and (max-width: 540px){
 	
 	.main-haeder{
 		height:auto;		
@@ -375,7 +493,7 @@ p{
 	.menu-trigger{
 		display: block;
 		background-color: #19c589;
-		padding: 10px;
+		padding: 12px;
 		text-align: right;
 		cursor: pointer;
 	}
@@ -423,7 +541,6 @@ p{
 	width: auto;
 	left: 30%;
 }
-
 }
 	
 	
